@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body  {
+    background-repeat: no-repeat;
+    background-image: url(https://media.discordapp.net/attachments/1031292863054618764/1043935537330933811/image.png?width=873&height=430);
+    background-size: 110%;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    background-color: #181414;
+    height: 95px;
+}
+
+.navbar {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size: 20px;
+    padding: 35px;
+    padding-left: 0;
+    letter-spacing: 0.5px;
+}
+
+.Links {
+    padding: 50px;
+    padding-left: 15px;
+    cursor: pointer;
+}
+
+#a {
+    padding: 50px;
+    padding-left: 15px;
+    cursor: pointer;
+    color: #af0000;
+    text-decoration: none;
+}
+
+.Links:hover {
+    transition: 0.5s;
+    color: #af0000;
+}
+
+.logo {
+    padding: 23px;
+    padding-left: 0px;
+}
+
+.logoalterations:hover {
+    transition: 0.4s;
+    border:2px solid #af0000;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.logoalterations {
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.section {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 80px;
+}
+
+.maintext {
+    display: flex;
+    justify-content: center;
+    font-size: 65px;
+    color: #c20000;
+
+}
+
+.background-nav {
+    background-color: white;
+    width: 100%;
+    height: 15vw;
+}
+
+
+.options ul {
+        list-style-type: none;
+        margin: 0;
+}
+
+.options{
+    text-align: center;    
+    background-color: #e00000;
+    border: 2px solid black;
+    border-radius: 20px; 
+    margin-bottom: 20px;
+    cursor: pointer;
+    padding-right: 3px;
+    padding-left: 3px;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    width: 125px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.options:hover, .btnbalde:hover, .btncombo:hover {
+    transition: 0.5s;
+    color: rgb(255, 255, 255);
+    background-color: rgb(49, 47, 47);
+}
+
+.preço {
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 10px;
+}
+
+.barcas {
+    float: left;
+    padding: 30px;
+}
+
+.baldes {
+    float: left;
+    padding-left: 30vw;
+}
+
+
+.btnbalde {
+    padding-left: 10px;
+    background-color: #e00000;
+    border: 2px solid black;
+    border-radius: 20px; 
+    margin-bottom: 20px;
+    cursor: pointer;
+    padding-right: 3px;
+    padding-left: 3px;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    width: 125px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.btnposition {
+    padding-left: 15px;
+}
+
+.btncombo {
+    padding-left: 10px;
+    background-color: #e00000;
+    border: 2px solid black;
+    border-radius: 20px; 
+    margin-bottom: 20px;
+    cursor: pointer;
+    padding-right: 3px;
+    padding-left: 3px;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    width: 120px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.Combos{
+    padding-left:85vw ;
+}
+
+.btnposition1 {
+    padding-left:15px;
+}
+
+.formpay {
+    padding: 20px;
+}
+
+.labelstyle{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size: 25px;
+}
+
+.input {
+    display: flex;
+}
+
+input {
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 5px;
+}
+
+@media only screen and (max-width:925px) {
+    .sectiontext {
+       transition:0.3s;  font-size: 60px;
+    }
+}
+
+@media only screen and (max-width:1320px) {
+    body {background-size: 110%; transition: 0.2s;}
+    
+}
+
+@media only screen and (max-width:1195px) {
+    body {background-size: 120%; transition: 0.2s;}
+}
+
+@media only screen and (max-width:1101px) {
+    body {background-size: 130%; transition: 0.2s;}
+}
+
+@media only screen and (max-width:1015px) {
+    body {background-size: 140%; transition: 0.2s;}
+}
+
+@media only screen and (max-width:950px) {
+    body {background-size: 160%; transition: 0.2s;}
+}
+
+@media only screen and (max-width:850px) {
+    .navbar {font-size: 15px;}     
+
+    .logoalterations{transition:0.3s; display: none;}
+    .logoalterations:hover {padding: 0px; border: none;}
+}
+
+@media only screen and (max-width:850px) {
+    body {transition:0.2s; background-size: 225%;}
+}
+
+@media only screen and (max-width:590px) {
+    body{background-size: 245%;}
+    .navbar{font-size: 13px;}
+}
+
+@media only screen and (max-width:590px) {
+    body {transition: 0.2s; background-size:260%;}
+    .sectiontext {transition: 0.2s; font-size: 55px;}
+    .navbar {transition: 0.2s; font-size: 12px;}
+}
+
+@media only screen and (max-width:527px) {
+    body {transition: 0.2s; background-size:280%;}
+    .navbar {transition: 0.2s; font-size: 11.3px;}
+}
+
+@media only screen and (max-width:500px){
+    .navbar {transition: 0.2s; font-size: 10.3px;}
+}
